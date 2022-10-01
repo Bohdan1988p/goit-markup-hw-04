@@ -461,13 +461,13 @@ body {
 }
 .footerdiv {
   display: flex;
-  justify-content: baseline;
-}
+  align-items: baseline;
+  }
 .footer-soclink {
   margin-left: 70px;
 }
 .tetx-soclink {
-  margin-bottom: 20px;
+   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -548,6 +548,7 @@ body {
 }
 
 .portfolio-item {
+
 }
 .potfolio-link {
   box-sizing: border-box;
@@ -556,6 +557,7 @@ body {
 .potfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 .portfolio-title {
@@ -578,4 +580,5 @@ body {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  
 }
