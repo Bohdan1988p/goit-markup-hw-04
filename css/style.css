@@ -70,9 +70,7 @@ body {
 /* /---------------HEADER------------/ */
 .header {
   background: var(--mainbackdroundcolor);
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+   border-bottom: 1px solid #ececec;
 }
 .header-conteiner {
   display: flex;
@@ -177,6 +175,7 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -221,6 +220,7 @@ body {
 }
 /* /-------------ПЕРЕВАГИ--------------/ */
 .benefits {
+  padding: 94px 0px 0px 0px;
 }
 
 .benefits-list {
@@ -341,7 +341,7 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  fill: var(--text-color);
+  fill: #AFB1B8;
 }
 .social-icon {
 }
@@ -380,7 +380,7 @@ body {
   height: 92px;
   justify-content: center;
   align-items: center;
-  fill: var(--text-color);
+  fill: #AFB1B8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -511,7 +511,7 @@ body {
 .btn-sortlist {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
   margin-bottom: 50px;
 }
 
@@ -552,13 +552,13 @@ body {
 
 }
 .potfolio-link {
-  box-sizing: border-box;
-}
+ display: block;
+    }
+
 .potfolio-link:hover,
 .potfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-title {
