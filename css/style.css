@@ -132,6 +132,7 @@ body {
   height: 4px;
   width: 100%;
   background-color: var(--akcent);
+  border-radius: 2px;
 }
 
 .nav-link:hover,
